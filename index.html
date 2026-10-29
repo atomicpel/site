@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Росгвардия · На страже морских рубежей</title>
+<meta name="description" content="Федеральная служба войск национальной гвардии Российской Федерации — новости, боевая подготовка, отдельная бригада особого назначения в Крыму.">
+<link rel="icon" href="img/star-small.svg">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="tricolor"><span class="w"></span><span class="b"></span><span class="r"></span></div>
+
+<header class="topbar">
+  <div class="container topbar-inner">
+    <a class="brand" href="index.html">
+      <!-- звезда Росгвардии -->
+      <svg viewBox="0 0 60 60"><path d="M30 3l7 16.5L54 21 40.5 32.5 45 50 30 40 15 50l4.5-17.5L6 21l17-1.5z" fill="#d9b44a" stroke="#f2d98a" stroke-width="1.5"/><circle cx="30" cy="29" r="7" fill="#6b1f3a" stroke="#f2d98a" stroke-width="2"/><path d="M30 25l2 4h-4z" fill="#f2d98a"/></svg>
+      <span><b>Росгвардия</b><small>Всегда на страже</small></span>
+    </a>
+    <button class="burger">☰</button>
+    <nav class="main">
+      <a href="index.html" class="active">Главная</a>
+      <a href="brigade.html">Бригада в Крыму</a>
+      <a href="#news">Новости</a>
+      <a href="brigade.html#emblem">Эмблема вч 6939</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ================= ГЕРОЙ с морем и стреляющими кораблями ================= -->
+<div class="hero">
+  <canvas id="seaCanvas"></canvas>
+  <img class="hero-emblem" src="img/emblem6939.svg" alt="">
+  <div class="container hero-content">
+    <span class="hero-kicker">⚓ Федеральная служба войск национальной гвардии</span>
+    <h1>На страже <em>морских рубежей</em> Отечества</h1>
+    <p class="lead">Подразделения Росгвардии несут службу на побережье Чёрного и Азовского морей: корабельные расчёты, бригады особого назначения и береговая охрана — круглосуточно, в любую погоду.</p>
+    <div class="hero-actions">
+      <a class="btn btn-gold" href="brigade.html">Бригада в Крыму</a>
+      <a class="btn btn-ghost" href="#news">Сводки новостей</a>
+    </div>
+  </div>
+
+  <!-- многослойные анимированные SVG-волны -->
+  <div class="waves" aria-hidden="true">
+    <div class="wave w4">
+      <svg viewBox="0 0 2880 120" preserveAspectRatio="none"><path fill="#0d4a86" d="M0,60 C120,20 240,20 360,60 C480,100 600,100 720,60 C840,20 960,20 1080,60 C1200,100 1320,100 1440,60 C1560,20 1680,20 1800,60 C1920,100 2040,100 2160,60 C2280,20 2400,20 2520,60 C2640,100 2760,100 2880,60 L2880,120 L0,120 Z"/></svg>
+    </div>
+    <div class="wave w3">
+      <svg viewBox="0 0 2880 120" preserveAspectRatio="none"><path fill="#1668b0" d="M0,70 C160,30 320,30 480,70 C640,110 800,110 960,70 C1120,30 1280,30 1440,70 C1600,110 1760,110 1920,70 C2080,30 2240,30 2400,70 C2560,110 2720,110 2880,70 L2880,120 L0,120 Z"/></svg>
+    </div>
+    <div class="wave w2">
+      <svg viewBox="0 0 2880 120" preserveAspectRatio="none"><path fill="#2e9be6" d="M0,80 C180,40 360,40 540,80 C720,120 900,120 1080,80 C1260,40 1440,40 1620,80 C1800,120 1980,120 2160,80 C2340,40 2520,40 2700,80 C2790,100 2835,110 2880,80 L2880,120 L0,120 Z"/></svg>
+    </div>
+    <div class="wave w1">
+      <svg viewBox="0 0 2880 120" preserveAspectRatio="none"><path fill="#062038" d="M0,60 C240,10 480,10 720,60 C960,110 1200,110 1440,60 C1680,10 1920,10 2160,60 C2400,110 2640,110 2880,60 L2880,120 L0,120 Z"/></svg>
+    </div>
+    <div class="surf"></div>
+  </div>
+</div>
+
+<!-- бегущая строка -->
+<div class="telex"><div class="telex-track">
+  <b>⚓ СВОДКА</b> Отдельная бригада особого назначения Росгвардии в Крыму приступила к выполнению служебно-боевых задач &nbsp;•&nbsp; <b>⚓</b> Корабельные расчёты отработали артиллерийские залпы на полигоне оптической локализации &nbsp;•&nbsp; <b>⚓</b> Войсковая часть 6939 — «Всегда на страже» &nbsp;•&nbsp; <b>⚓</b> Эмблема вч 6939 утверждена приказом Росгвардии от 15 октября 2020 № 404 &nbsp;•&nbsp;
+  <b>⚓ СВОДКА</b> Отдельная бригада особого назначения Росгвардии в Крыму приступила к выполнению служебно-боевых задач &nbsp;•&nbsp; <b>⚓</b> Корабельные расчёты отработали артиллерийские залпы на полигоне оптической локализации &nbsp;•&nbsp; <b>⚓</b> Войсковая часть 6939 — «Всегда на страже» &nbsp;•&nbsp; <b>⚓</b> Эмблема вч 6939 утверждена приказом Росгвардии от 15 октября 2020 № 404 &nbsp;•&nbsp;
+</div></div>
+
+<!-- ================= НОВОСТИ ================= -->
+<section id="news">
+  <div class="bg-waves">
+    <div class="wave w3"><svg viewBox="0 0 2880 120" preserveAspectRatio="none"><path fill="#2e9be6" d="M0,60 C240,10 480,10 720,60 C960,110 1200,110 1440,60 C1680,10 1920,10 2160,60 C2400,110 2640,110 2880,60 L2880,120 L0,120 Z"/></svg></div>
+    <div class="wave w2"><svg viewBox="0 0 2880 120" preserveAspectRatio="none"><path fill="#0f5fb8" d="M0,70 C180,30 360,30 540,70 C720,110 900,110 1080,70 C1260,30 1440,30 1620,70 C1800,110 1980,110 2160,70 C2340,30 2520,30 2700,70 L2880,120 L0,120 Z"/></svg></div>
+  </div>
+  <div class="container content">
+    <div class="section-head reveal">
+      <h2>Новости и события</h2>
+      <a class="anchor-link" href="https://rosguard.gov.ru/ru/news" target="_blank" rel="noopener">Все новости ↗</a>
+    </div>
+
+    <div class="featured reveal">
+      <article class="card">
+        <div class="thumb"><span class="tag">Бригада ОН</span><img src="img/crimea.jpg" alt="Отдельная бригада особого назначения Росгвардии в Крыму"></div>
+        <div class="body">
+          <time>Июль 2020 · Республика Крым</time>
+          <h3><a href="brigade.html">Отдельная бригада особого назначения Росгвардии в Крыму приступила к выполнению служебно-боевых задач</a></h3>
+          <p>Военнослужащие бригады, дислоцированной на полуострове, вышли на полигоны и заступили на маршруты охраны общественного порядка. Впереди — слашивание подразделений, выход в море и учебные артиллерийские залпы.</p>
+          <p style="margin-top:12px"><a class="btn btn-ghost" style="padding:9px 18px;font-size:12px" href="brigade.html">Читать далее →</a></p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="thumb"><span class="tag">Войсковая часть 6939</span><img src="img/yx2.jpg" alt="Служба росгвардейцев на морском побережье"></div>
+        <div class="body">
+          <time>Гербовый знак</time>
+          <h3><a href="brigade.html#emblem">Геральдический знак — эмблема войсковой части 6939</a></h3>
+          <p>Золотой грифон с ключом, мост над синей оконечностью и краповая девизная лента «Всегда на страже». Утверждена приказом Росгвардии от 15 октября 2020 № 404.</p>
+          <p style="margin-top:12px"><a class="btn btn-ghost" style="padding:9px 18px;font-size:12px" href="brigade.html#emblem">Описание эмблемы →</a></p>
+        </div>
+      </article>
+    </div>
+
+    <div class="news-grid">
+      <article class="card reveal">
+        <div class="thumb"><span class="tag">Корабельная служба</span><img src="img/a1.jpg" alt="Катера Росгвардии"></div>
+        <div class="body"><time>04 июля 2020</time><h3>Расчёты катеров отработали стрельбу по морским целям</h3><p>Экипажи патрульных катеров провели учебные артиллерийские залпы по дрейфующим щитам в условиях штормового предупреждения.</p></div>
+      </article>
+      <article class="card reveal">
+        <div class="thumb"><span class="tag">Боевая подготовка</span><img src="img/a2.jpg" alt="Занятия по боевой подготовке"></div>
+        <div class="body"><time>02 июля 2020</time><h3>На полигоне прошли занятия по боевой подготовке</h3><p>Военнослужащие выполняли нормативы по действиям в составе расчёта, отрабатывали выход из окружения и эвакуацию раненых с берега.</p></div>
+      </article>
+      <article class="card reveal">
+        <div class="thumb"><span class="tag">Охрана порядка</span><img src="img/a3.jpg" alt="Несение службы"></div>
+        <div class="body"><time>28 июня 2020</time><h3>Патрули усилии охрану курортного побережья</h3><p>В сезон на маршруты дислокации выведены дополнительные мобильные расчёты вневедомственной охраны.</p></div>
+      </article>
+      <article class="card reveal">
+        <div class="thumb"><span class="tag">Юбилей части</span><img src="img/a4.jpg" alt="Подразделение Росгвардии"></div>
+        <div class="body"><time>15 октября 2020</time><h3>Приказом Росгвардии утверждена эмблема вч 6939</h3><p>Геральдический знак войсковой части разработан с учётом истории казачьих формирований полуострова и морской символики.</p></div>
+      </article>
+      <article class="card reveal">
+        <div class="thumb"><span class="tag">Выход в море</span><img src="img/yx1.jpg" alt="Учения на воде"></div>
+        <div class="body"><time>18 августа 2023</time><h3>Крымские росгвардейцы провели учения на водной акватории</h3><p>Подразделения бригады особого назначения отработали высадку десанта и взаимодействие с береговыми расчётами.</p></div>
+      </article>
+      <article class="card reveal">
+        <div class="thumb"><span class="tag">Служба</span><img src="img/crimea.jpg" alt="Служебно-боевые задачи"></div>
+        <div class="body"><time>Хроника</time><h3>Бригада выполняет служебно-боевые задачи в штатном режиме</h3><p>За сутки подразделения реагировали на происшествия, обеспечивали правопорядок на побережье и в Симферополе.</p></div>
+      </article>
+    </div>
+
+    <!-- счётчики -->
+    <div class="counters reveal">
+      <div class="counter"><div class="num" data-count="1996">0</div><div class="lbl">Год образования<br>бригады</div></div>
+      <div class="counter"><div class="num" data-count="6939">0</div><div class="lbl">Номер войсковой<br>части</div></div>
+      <div class="counter"><div class="num" data-count="24">0</div><div class="lbl">Часа в сутки<br>несётся служба</div></div>
+      <div class="counter"><div class="num" data-count="404">0</div><div class="lbl">№ приказа об<br>эмблеме (2020)</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ПОДВАЛ ================= -->
+<footer id="contacts">
+  <div class="waves footer-waves" aria-hidden="true">
+    <div class="wave w2"><svg viewBox="0 0 2880 120" preserveAspectRatio="none"><path fill="#0a2c50" d="M0,60 C240,10 480,10 720,60 C960,110 1200,110 1440,60 C1680,10 1920,10 2160,60 C2400,110 2640,110 2880,60 L2880,120 L0,120 Z"/></svg></div>
+    <div class="wave w1"><svg viewBox="0 0 2880 120" preserveAspectRatio="none"><path fill="#020c18" d="M0,70 C180,30 360,30 540,70 C720,110 900,110 1080,70 C1260,30 1440,30 1620,70 C1800,110 1980,110 2160,70 C2340,30 2520,30 2700,70 L2880,120 L0,120 Z"/></svg></div>
+  </div>
+  <div class="container footer-grid">
+    <div>
+      <h5>Росгвардия</h5>
+      <p style="font-size:14px;color:#8fa9c4">Федеральная служба войск национальной гвардии Российской Федерации. Защита интересов государства, обеспечение общественного порядка и безопасности на суше и на море.</p>
+    </div>
+    <div>
+      <h5>Разделы</h5>
+      <a href="index.html">Главная</a>
+      <a href="brigade.html">Бригада в Крыму</a>
+      <a href="brigade.html#emblem">Эмблема вч 6939</a>
+      <a href="https://rosguard.gov.ru/" target="_blank" rel="noopener">Официальный сайт ↗</a>
+    </div>
+    <div>
+      <h5>Контакты</h5>
+      <a href="tel:+74956885050">+7 (495) 688-50-50</a>
+      <a href="mailto:press@rosguard.example">пресс-служба</a>
+      <p style="font-size:13px;color:#5f7893;margin-top:8px">Москва, ул. Госпитальная, 4</p>
+    </div>
+  </div>
+  <div class="copy">Демонстрационный фан-сайт в морской тематике. Материалы и фото — rosguard.gov.ru © Росгвардия</div>
+</footer>
+
+<script src="js/sea.js"></script>
+</body>
+</html>
